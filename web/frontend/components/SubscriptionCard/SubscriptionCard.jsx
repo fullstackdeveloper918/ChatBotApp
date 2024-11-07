@@ -17,7 +17,7 @@ const SubscriptionCard = ({ plan, onSubscribe }) => {
         <ul class="features">
           <li>
             <img src={checkMark} />
-            <a href="#">250 Subscribers</a>
+            <a href="#">250 Subscriber</a>
           </li>
           <li>
             <img src={checkMark} />
