@@ -3,7 +3,7 @@
 client_id = "84daff8713a9893c5293c53ef18713d4"
 name = "chatbot-return"
 handle = "chatbot-return"
-application_url = "https://internship-skill-milwaukee-tom.trycloudflare.com"
+application_url = "https://pitch-step-paintball-diagnosis.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://internship-skill-milwaukee-tom.trycloudflare.com/auth/callback",
-  "https://internship-skill-milwaukee-tom.trycloudflare.com/auth/shopify/callback",
-  "https://internship-skill-milwaukee-tom.trycloudflare.com/api/auth/callback"
+  "https://pitch-step-paintball-diagnosis.trycloudflare.com/auth/callback",
+  "https://pitch-step-paintball-diagnosis.trycloudflare.com/auth/shopify/callback",
+  "https://pitch-step-paintball-diagnosis.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

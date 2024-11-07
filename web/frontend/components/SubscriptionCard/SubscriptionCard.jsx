@@ -8,7 +8,7 @@ const SubscriptionCard = ({ plan, onSubscribe }) => {
       <div class="card">
         <div class="header">
           <span class="license">hobby</span>
-          <h2>$29</h2>
+          <h2>${plan.price}</h2>
           <span class="duration">/month</span>
           <a href="#" class="btn">
             Get started
@@ -17,15 +17,15 @@ const SubscriptionCard = ({ plan, onSubscribe }) => {
         <ul class="features">
           <li>
             <img src={checkMark} />
-            <a href="#">250 Subscriber</a>
+            <a href="#">{plan.subscriber} Subscriber</a>
           </li>
           <li>
             <img src={checkMark} />
-            <a href="#">5 Team Members</a>
+            <a href="#">{plan.member} Team Members</a>
           </li>
           <li>
             <img src={checkMark} />
-            <a href="#">5 Metrics</a>
+            <a href="#">{plan.metric} Metrics</a>
           </li>
           <li>
             <img src={checkMark} />

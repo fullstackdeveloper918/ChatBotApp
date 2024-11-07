@@ -1,35 +1,36 @@
 
 import React, { useState } from "react";
 import SubscriptionCard from "../SubscriptionCard/SubscriptionCard";
+import './Subscription.css'
 
  const subscriptionPlans = [
     {
       id: 1,
-      name: "Basic",
-      features: ["Basic customer interactions"],
-      price: "$9.99/month",
+      price: "9.99/month",
+      subscriber: 5,
+      member: 3,
+      metric: 5
     },
     {
       id: 2,
-      name: "Standard",
-      features: ["Basic customer interactions", "Advanced analytics and reporting"],
-      price: "$19.99/month",
+      price: "19.99/month",
+      subscriber: 8,
+      member: 5,
+      metric: 5
     },
     {
       id: 3,
-      name: "Premium",
-      features: ["Advanced analytics", "Customized responses based on user behavior"],
-      price: "$29.99/month",
+      price: "29.99/month",
+      subscriber: 9,
+      member: 6,
+      metric: 6
     },
     {
       id: 4,
-      name: "Enterprise",
-      features: [
-        "Advanced analytics",
-        "Customized responses",
-        "Integration with other Shopify apps or services",
-      ],
-      price: "$49.99/month",
+      price: "49.99/month",
+      subscriber: 11,
+      member: 8,
+      metric: 9
     },
   ];
 
