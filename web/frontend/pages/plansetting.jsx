@@ -1,10 +1,10 @@
 import React from 'react'
-import PlanSetting from '../components/PlanSetting/PlanSetting'
+import Subscription from '../components/subscription/Subscription'
 
 const plansetting = () => {
   return (
     <>
-     <PlanSetting />
+     <Subscription />
     </>
   )
 }

@@ -11,7 +11,8 @@
     "pageName": "Page name ",
     "demo":"Demo Page",
     "botConfig": "Bot Configuration",
-    "plansetting": "Plan Setting"
+    "plansetting": "Plan Setting",
+    "chatassistant": "Chat Assistant"
   },
   "NotFound": {
     "description": "Check the URL and try again, or use the search bar to find what you need.",

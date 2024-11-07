@@ -3,7 +3,7 @@
 client_id = "84daff8713a9893c5293c53ef18713d4"
 name = "chatbot-return"
 handle = "chatbot-return"
-application_url = "https://quiz-arrow-only-gcc.trycloudflare.com"
+application_url = "https://internship-skill-milwaukee-tom.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://quiz-arrow-only-gcc.trycloudflare.com/auth/callback",
-  "https://quiz-arrow-only-gcc.trycloudflare.com/auth/shopify/callback",
-  "https://quiz-arrow-only-gcc.trycloudflare.com/api/auth/callback"
+  "https://internship-skill-milwaukee-tom.trycloudflare.com/auth/callback",
+  "https://internship-skill-milwaukee-tom.trycloudflare.com/auth/shopify/callback",
+  "https://internship-skill-milwaukee-tom.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
