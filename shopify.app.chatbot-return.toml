@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "84daff8713a9893c5293c53ef18713d4"
+name = "chatbot-return"
+handle = "chatbot-return"
+application_url = "https://quiz-arrow-only-gcc.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+dev_store_url = "chat-bot-app.myshopify.com"
+automatically_update_urls_on_dev = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://quiz-arrow-only-gcc.trycloudflare.com/auth/callback",
+  "https://quiz-arrow-only-gcc.trycloudflare.com/auth/shopify/callback",
+  "https://quiz-arrow-only-gcc.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false
